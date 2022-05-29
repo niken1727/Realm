@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="label" format="string" />
+    <attr name="hint" format="string" />
+    <attr name="value" format="string" />
+    <attr name="required" format="boolean" />
+    <attr name="maxLength" format="integer" />
+    <attr name="min" format="integer" />
+    <attr name="max" format="integer" />
+    <attr name="enabled" format="boolean" />
+
+    <attr name="inputType" format="enum">
+        <enum name="text" value="0" />
+        <enum name="number" value="1" />
+        <enum name="calendar" value="2" />
+        <enum name="email" value="3" />
+    </attr>
+
+
+    <declare-styleable name="EditTextFormView">
+        <attr name="label" />
+        <attr name="hint" />
+        <attr name="inputType" />
+    </declare-styleable>
+</resources>

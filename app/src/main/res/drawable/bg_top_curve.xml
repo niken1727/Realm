@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:top="12dp" android:left="12dp" android:right="12dp" />
+
+    <corners android:topLeftRadius="@dimen/text_input_radius" android:topRightRadius="@dimen/text_input_radius"/>
+    <solid android:color="#fff" />
+</shape>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_dotted_background.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/bg_text_input.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/bg_top_curve.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_base.xml" value="0.37447916666666664" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/filter_bottom_sheet_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_create_user.xml" value="0.37447916666666664" />
+        <entry key="app/src/main/res/layout/fragment_user_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layout_edit_text_form.xml" value="0.27722772277227725" />
+        <entry key="app/src/main/res/layout/layout_uploader_view.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/user_item_layout.xml" value="0.39500567536889897" />
+        <entry key="app/src/main/res/menu/toolbar_menu.xml" value="0.14427083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

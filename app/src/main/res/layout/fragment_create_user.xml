@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.user.fragment.CreateUserFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+        <com.niken.assignment.component.EditTextFormView
+            android:id="@+id/name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hint="Name"
+            />
+
+        <com.niken.assignment.component.EditTextFormView
+            android:id="@+id/email_view"
+            android:layout_marginTop="@dimen/dimen_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hint="Email"
+            app:inputType="email"
+            />
+
+
+        <com.niken.assignment.component.EditTextFormView
+            android:id="@+id/mobile_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hint="Mobile Number"
+            android:layout_marginTop="@dimen/dimen_8"
+            app:inputType="number"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_marginTop="@dimen/dimen_8"
+            android:textColor="@color/black"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3" />
+
+
+
+        <com.niken.assignment.component.EditTextFormView
+            android:id="@+id/device_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hint="Device Name"
+            android:layout_marginTop="@dimen/dimen_24"
+            />
+
+
+        <com.niken.assignment.component.UploaderView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload_image_view"
+            android:layout_marginTop="@dimen/dimen_16"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/calendar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextInputLayout"
+            android:layout_marginTop="@dimen/dimen_16"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:errorEnabled="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableRight="@drawable/ic_calendar"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="Select Date"
+                android:importantForAutofill="no"
+                android:inputType="textNoSuggestions"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_marginTop="@dimen/dimen_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add User"
+            />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
